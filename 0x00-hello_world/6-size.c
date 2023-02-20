@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /**
  * main - Sizes of various types
  * Return: 0 (Success)
