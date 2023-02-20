@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c -S $CFILE -o cfile.s
+gcc $CFILE -o cisoverwhelming
