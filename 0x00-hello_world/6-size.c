@@ -15,11 +15,11 @@ int main(void)
  *Size of a long long int: 8 byte(s)
  *Size of a float: 4 byte(s)
 */ 
-printf("char size = %zu", sizeof(char));
-printf("\nint size = %zu", sizeof(int));
-pringf("\nlong int size = %zu", sizeof(long int));
-printf("\nlong long int size =%zu", sizeof(long long int));
-printf("\nfloat size = %zu", sizeof(float));
+printf("char size: %d byte(s)\n", sizeof(char));
+printf("int size: %d byte(s)\n", sizeof(int));
+pringf("long int size: %d byte(s)\n", sizeof(long int));
+printf("long long int size: %d byte(s)\n", sizeof(long long int));
+printf("float size: %d byte(s)\n", sizeof(float));
 
 return (0);
 }
