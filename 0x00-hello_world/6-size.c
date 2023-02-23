@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 /**
  * main - Entry point
  *
@@ -19,5 +20,6 @@ printf("\nint size = %zu", sizeof(int));
 pringf("\nlong int size = %zu", sizeof(long int));
 printf("\nlong long int size =%zu", sizeof(long long int));
 printf("\nfloat size = %zu", sizeof(float));
+
 return (0);
 }
