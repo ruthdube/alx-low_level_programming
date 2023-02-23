@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 /**
- * main - Positives or negatives
+ * main -Print if number is positives, zero or negatives
  *
  * Return: Always 0 (Success)
  */
