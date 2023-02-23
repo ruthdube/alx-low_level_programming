@@ -2,24 +2,18 @@
 
 
 /**
- * main - Entry point
- *
+ * main - Prints sizes of various data types
+ * 
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-/*
- *Size of char: 1 byte(s)
- *Size of an int: 4 byte(s)
- *Size of a long int: 8 byte(s)
- *Size of a long long int: 8 byte(s)
- *Size of a float: 4 byte(s)
-*/ 
-printf("char size: %d byte(s)\n", sizeof(char));
-printf("int size: %d byte(s)\n", sizeof(int));
-pringf("long int size: %d byte(s)\n", sizeof(long int));
-printf("long long int size: %d byte(s)\n", sizeof(long long int));
-printf("float size: %d byte(s)\n", sizeof(float));
+
+printf("char size: %zu byte(s)\n", sizeof(char));
+printf("int size: %zu byte(s)\n", sizeof(int));
+pringf("long int size: %zu byte(s)\n", sizeof(long int));
+printf("long long int size: %zu byte(s)\n", sizeof(long long int));
+printf("float size: %zu byte(s)\n", sizeof(float));
 
 return (0);
 }
